@@ -54,6 +54,7 @@ public class My_Player extends Activity implements SensorEventListener {
 	Button j_button2;
 	Button j_button3;
 	VideoView j_vv;
+
 	/**
 	 * Variables for Battery Level
 	 */
@@ -351,6 +352,17 @@ public class My_Player extends Activity implements SensorEventListener {
 			makeToast("Playing Song...");
 			myPlayer.start();
 			break;
+		case R.id.go_web:
+			makeToast("Loading Webpage");
+			// what to do when clicked //
+			url = "http://www.hillbillyhotdogs.com";
+
+			Intent intent = new Intent("com.akapapaj.j_browser.LAUNCH_TEST",
+					Uri.parse(url));
+
+			intent.setData(Uri.parse(url));
+			startActivity(intent);
+			break;
 		case R.id.show_video:
 			if (good2Go = true) {
 				// If enough batter, play video //
@@ -365,7 +377,7 @@ public class My_Player extends Activity implements SensorEventListener {
 				break;
 			}
 		case R.id.about:
-			makeToast("ME: Some people call me the space cowboy,\n"
+			makeLongToast("ME: Some people call me the space cowboy,\n"
 					+ "yeah Some call me the gangster of love\n"
 					+ "Some people call me Maurice\n"
 					+ "Cause I speak of the pompitous of love");
@@ -378,6 +390,10 @@ public class My_Player extends Activity implements SensorEventListener {
 	public void makeToast(String message) {
 		Toast.makeText(_this, message, Toast.LENGTH_SHORT).show();
 
+	}
+
+	public void makeLongToast(String message) {
+		Toast.makeText(_this, message, Toast.LENGTH_LONG).show();
 	}
 
 }
