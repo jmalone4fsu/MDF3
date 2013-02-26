@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="products_array">
+        <item>McDonalds - Big Mac</item>
+        <item>Taco Bell - Soft Beef Taco</item>
+        <item>Giovannis - Cheese and Mushroom Pizza</item>
+        <item>Great Steaks - Super Cheesesteak</item>
+        <item>UNO - Fish and Chips</item>
+    </string-array>
+    
+    <string-array name="sku">
+        <item>9333027</item>
+        <item>6882588</item>
+        <item>4811263</item>
+        <item>3176102</item>
+        <item>5764341</item>
+    </string-array>
+    
+    <string-array name="desc">
+        <item>Two beef patties, American cheese, "special sauce", lettuce, pickles, and onions, served in a three part sesame seed bun</item>
+        <item>Soft shell taco with seasoned beef, lettuce, cheese</item>
+        <item>Single slice thin crust pizza with mozzarella cheese and mushrooms</item>
+        <item>Grilled with onions, green peppers, mushrooms, Provolone cheese, topped with lettuce, tomato, mayo</item>
+        <item>Battered haddock served with fries and red pepper tartar sauce</item>
+    </string-array>
+    
+    <string-array name="price">
+        <item>260</item>
+        <item>200</item>
+        <item>130</item>
+        <item>1200</item>
+        <item>460</item>
+    </string-array>
+    <string-array name="urls">
+        <item><![CDATA[<a href="http://devm.nutritionix.com/#item_5tx7TK1wr89MDEPznlJB">See on Web</a>]]></item>
+        <item><![CDATA[<a href="http://devm.nutritionix.com/#item_4cJEdW0buMZnNQfzqFxa">See on Web</a>]]></item>
+        <item><![CDATA[<a href="http://devm.nutritionix.com/#item_ZxMkzPED8ehWTjyFs3pn">See on Web</a>]]></item>
+        <item><![CDATA[<a href="http://devm.nutritionix.com/#item_14hCn2wUMKyxZYVDvdim">See on Web</a>]]></item>
+        <item><![CDATA[<a href="http://devm.nutritionix.com/#item_Hqg5KrBlw2I1MWJX7oDA">See on Web</a>]]></item>
+    </string-array>
+</resources>
