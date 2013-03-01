@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function invoke(param1, param2)
+			{
+				// invoke JavaScript Bridge
+				var result = HTMLOUT.callMe(param1, param2);
+				alert(result);
+			}
+		</script>
+	</head>
+	<body>
+	<h2>Mobile Development Frameworks III</h2>
+	<h3>Joseph Malone akaPapa J</h3>
+	<p>This simple app shows how Javascript and HTML can be used inside
+	of an Android Java application using the WebView.  Communication between
+	the Java webView and the Javascript is established using a Javascript
+	interface.  Press the button to show how Javascript can invoke an alert
+	from inside the webView.</p>
+	<!-- setup button -->
+	<input type="button" value="Javascript-to-Java" onClick="invoke('Whooohooo', 'It Worked!');"/>
+	</body>
+</html>
